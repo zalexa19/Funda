@@ -6,6 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -18,16 +19,23 @@ import java.util.concurrent.TimeUnit;
 public class Base {
     final String PATH_VAR = "path"; //Var to derive driver's file location in the data.properties file
     WebDriver driver;
+    Properties properties;
+    FileInputStream fileInputStream;
 
+
+
+    public void load_prop_file() throws IOException{
+        properties = new Properties();
+        fileInputStream = new FileInputStream("/home/alexz/Desktop/GitHub/Funda/searchbar/src/main/java/data.properties");
+        properties.load(fileInputStream);
+    }
 
 
     public void initialize_driver() throws IOException{
         String browser;
         String browser_path;
 
-        Properties properties = new Properties();
-        FileInputStream fileInputStream = new FileInputStream("/home/alexz/Desktop/GitHub/Funda/searchbar/src/main/java/data.properties");
-        properties.load(fileInputStream);
+
 
         browser=properties.getProperty("browser");
 
@@ -38,18 +46,20 @@ public class Base {
         }
         else if (browser.equals("firefox")){
             browser_path=properties.getProperty("firefox_path");
+
             System.setProperty("webdriver.gecko.driver",browser_path);
             driver=new FirefoxDriver();
-
         }
+
         else if(browser.equals("IE")){
             browser_path=properties.getProperty("IE_path");
             System.setProperty("webdriver.ie.driver",browser_path);
             driver=new InternetExplorerDriver();
         }
 
-        //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
     }
+
+
 }
