@@ -1,17 +1,19 @@
 package com.fundanl.test_suite;
 
 import com.fundanl.test_suite.PageObjects.KoopPage;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.BeforeClass;
 
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
-
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 public class Tests extends Base{
+    private Select radiusValues,rangeMinValues,rangeMaxValues;
+    private KoopPage koopPage;
 
-    @BeforeClass
+    @BeforeSuite
     public void initialize(){
         try {
             load_prop_file();
@@ -22,20 +24,38 @@ public class Tests extends Base{
 
     }
 
+    /**
+     * This method creates lists from all the drop downs, for later use
+     */
+    @BeforeClass
+    public void createLists(){
+        koopPage = new KoopPage(driver);
 
-    @Test
-    public void openPage(){
-        KoopPage koopPage = new KoopPage(driver);
         driver.get(koopPage.getURL());
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS); //time to pass the i'm not a robot
 
-        driver.switchTo().frame(koopPage.getFormElement());
+        System.out.println("Creating list for radius");
+        radiusValues=new Select(koopPage.getRadiusId());
+        rangeMinValues=new Select(koopPage.getRangeMin());
+        rangeMaxValues=new Select(koopPage.getRangeMax());
+    }
 
-        koopPage.getDistanceFilter().click();
 
-        /*koopPage.getHuurButton().click();*/
-/*
-       koopPage.getDistanceValues().selectByIndex(2);
-*/
+    @Test(enabled = false)
+    public void openPage(){
 
+        //By radiusCSS = By.id("Straal");
+        //Select list = new Select(driver.findElement(radiusCSS));
+        radiusValues.selectByIndex(2);
+        rangeMinValues.selectByValue("225000");
+        rangeMaxValues.selectByValue("50000");
+        koopPage.getSearchButton().click();
+
+    }
+
+    @Test(priority = 1)
+    public void dynamicSearch(){
+        String city ="Amsterdam";
+        koopPage.getInputField().sendKeys(city);
     }
 }

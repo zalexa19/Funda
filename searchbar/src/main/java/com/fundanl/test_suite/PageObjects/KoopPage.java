@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
+import java.util.List;
+
 public class KoopPage {
     final private String URL="https://www.funda.nl";
     WebDriver driver;
@@ -23,22 +25,27 @@ public class KoopPage {
     By searchButton=By.className("button-primary-alternative");
 
     /*filters*/
-    By searchField=By.id("autocomplete-input");
-    By distanceFilter = By.id("Straal");
-    By rangeFromFilter= By.id("range-filter-selector-select-filter_koopprijsvan");
-    By rangeToFilter=By.id("range-filter-selector-select-filter_koopprijstot");
-
-    /*form*/
-    By formElement=By.cssSelector("form.search-block__form");
-
-    WebElement distanceFilterElement = driver.findElement(distanceFilter);
+    By radiusFilter = By.xpath("//fieldset[@class='search-block__location-filters']/div[2]/select");
+    By radiusId = By.id("Straal");
+    By rangeMin=By.id("range-filter-selector-select-filter_koopprijsvan");
+    By rangeMax=By.id("range-filter-selector-select-filter_koopprijstot");
+    By inputField=By.id("autocomplete-input");
 
 
-    Select distanceValues = new Select(distanceFilterElement);
-    Select ranfgeFromValues = new Select(getRangeFromFilter());
-    Select rangeToValues = new Select(getRangeToFilter());
+    public WebElement getInputField(){
+        return driver.findElement(inputField);
+    }
 
 
+    public WebElement getRadiusId(){
+        return driver.findElement(radiusId);
+    }
+
+
+
+
+
+    /**********************************************/
 
 
 
@@ -67,26 +74,21 @@ public class KoopPage {
         return driver.findElement(searchButton);
     }
 
-    public WebElement getSearchField(){
-        return driver.findElement(searchField);
+
+
+    public WebElement getRadiusFilter(){
+        return driver.findElement(radiusFilter);
+    }
+
+    public WebElement getRangeMin(){
+        return driver.findElement(rangeMin);
+    }
+
+    public WebElement getRangeMax(){
+        return driver.findElement(rangeMax);
     }
 
 
-    public WebElement getDistanceFilter(){
-        return driver.findElement(distanceFilter);
-    }
-
-    public WebElement getRangeFromFilter(){
-        return driver.findElement(rangeFromFilter);
-    }
-
-    public WebElement getRangeToFilter(){
-        return driver.findElement(rangeToFilter);
-    }
-
-    public WebElement getFormElement(){
-        return driver.findElement(formElement);
-    }
 
     /*GETTERS*/
     public String getURL(){
@@ -94,17 +96,7 @@ public class KoopPage {
     }
 
 
-    public Select getDistanceValues(){
-        return distanceValues;
-    }
 
-    public Select getRangeFromValues(){
-        return ranfgeFromValues;
-    }
-
-    public Select getRangeToValues(){
-        return rangeToValues;
-    }
 
 
 }
