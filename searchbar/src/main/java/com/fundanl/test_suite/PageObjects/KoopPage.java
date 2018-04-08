@@ -3,16 +3,16 @@ package com.fundanl.test_suite.PageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
-
-import java.util.List;
 
 public class KoopPage {
     final private String URL="https://www.funda.nl";
+    private String radiusID="Straal";
     WebDriver driver;
+
 
     public KoopPage(WebDriver driver){
         this.driver=driver;
+
     }
 
 
@@ -22,11 +22,11 @@ public class KoopPage {
     By niewbouwButton=By.cssSelector("a[href*=nieuwbouw]");
     By recreatieButton=By.cssSelector("a[href*=recreatie]");
     By europeButton=By.cssSelector("a[href*=europe]");
-    By searchButton=By.className("button-primary-alternative");
+    By searchButton=By.cssSelector("button.button-primary-alternative");
 
     /*filters*/
     By radiusFilter = By.xpath("//fieldset[@class='search-block__location-filters']/div[2]/select");
-    By radiusId = By.id("Straal");
+    By radius = By.id(radiusID);
     By rangeMin=By.id("range-filter-selector-select-filter_koopprijsvan");
     By rangeMax=By.id("range-filter-selector-select-filter_koopprijstot");
     By inputField=By.id("autocomplete-input");
@@ -37,8 +37,8 @@ public class KoopPage {
     }
 
 
-    public WebElement getRadiusId(){
-        return driver.findElement(radiusId);
+    public WebElement getRadius(){
+        return driver.findElement(radius);
     }
 
 
@@ -95,8 +95,7 @@ public class KoopPage {
         return URL;
     }
 
-
-
-
-
+    public String getRadiusID() {
+        return radiusID;
+    }
 }
