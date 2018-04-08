@@ -16,8 +16,8 @@
       <file leaf-file-name="KoopPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/KoopPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="258">
+              <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1125#1126#0" expanded="true" />
@@ -54,10 +54,28 @@
       <file leaf-file-name="Tests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/fundanl/test_suite/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="273">
+              <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2184#2185#0" expanded="true" />
+                <element signature="e#2238#2239#0" expanded="true" />
+                <element signature="e#2387#2388#0" expanded="true" />
+                <element signature="e#2439#2440#0" expanded="true" />
+                <element signature="e#2518#2519#0" expanded="true" />
+                <element signature="e#2570#2571#0" expanded="true" />
+                <element signature="e#2641#2642#0" expanded="true" />
+                <element signature="e#2693#2694#0" expanded="true" />
+                <element signature="e#2764#2765#0" expanded="true" />
+                <element signature="e#2816#2817#0" expanded="true" />
+                <element signature="e#2887#2888#0" expanded="true" />
+                <element signature="e#2939#2940#0" expanded="true" />
+                <element signature="e#3040#3041#0" expanded="true" />
+                <element signature="e#3094#3095#0" expanded="true" />
+                <element signature="e#3164#3165#0" expanded="true" />
+                <element signature="e#3214#3215#0" expanded="true" />
+                <element signature="e#3291#3292#0" expanded="true" />
+                <element signature="e#3341#3342#0" expanded="true" />
                 <element signature="e#2664#2665#0" expanded="true" />
                 <element signature="e#2709#2710#0" expanded="true" />
               </folding>
@@ -65,12 +83,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="RecreatiePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/RecreatiePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="30">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NieuwbouwPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/NieuwbouwPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HuurPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/HuurPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/data.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -78,8 +126,8 @@
       <file leaf-file-name="Base.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/Base.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="59" column="102" lean-forward="false" selection-start-line="59" selection-start-column="102" selection-end-line="59" selection-end-column="102" />
+            <state relative-caret-position="285">
+              <caret line="28" column="117" selection-start-line="28" selection-start-column="117" selection-end-line="28" selection-end-column="117" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,11 +150,6 @@
       <find>method</find>
     </findStrings>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -115,12 +158,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/Nieuwbouw.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/Huur.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/Koop.java" />
-        <option value="$PROJECT_DIR$/src/main/java/data.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/Base.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/Filters.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/FIlters.java" />
+        <option value="$PROJECT_DIR$/src/main/java/data.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/Base.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/KoopPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/HuurPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/fundanl/test_suite/Tests.java" />
       </list>
     </option>
@@ -150,20 +194,11 @@
     <option name="height" value="943" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,16 +273,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -266,31 +300,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Tests">
+  <component name="RunManager" selected="TestNG.Tests.pressOnHuur">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -300,29 +317,20 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
     <configuration name="Tests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <module name="searchbar" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.fundanl.test_suite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="searchbar" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -335,53 +343,132 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Tests.openPage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+    <configuration name="Tests.huurTabVisibility" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="searchbar" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.fundanl.test_suite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="searchbar" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.fundanl.test_suite" />
       <option name="MAIN_CLASS_NAME" value="com.fundanl.test_suite.Tests" />
-      <option name="METHOD_NAME" value="openPage" />
+      <option name="METHOD_NAME" value="huurTabVisibility" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Tests.koopTabVisibility" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="searchbar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fundanl.test_suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.fundanl.test_suite" />
+      <option name="MAIN_CLASS_NAME" value="com.fundanl.test_suite.Tests" />
+      <option name="METHOD_NAME" value="koopTabVisibility" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Tests.pressOnHuur" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="searchbar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fundanl.test_suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.fundanl.test_suite" />
+      <option name="MAIN_CLASS_NAME" value="com.fundanl.test_suite.Tests" />
+      <option name="METHOD_NAME" value="pressOnHuur" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Tests.searchButtonDisabled" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="searchbar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fundanl.test_suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.fundanl.test_suite" />
+      <option name="MAIN_CLASS_NAME" value="com.fundanl.test_suite.Tests" />
+      <option name="METHOD_NAME" value="searchButtonDisabled" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -394,17 +481,21 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -412,19 +503,22 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.Tests" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.Tests.openPage" />
+    <list>
+      <item itemvalue="TestNG.Tests" />
+      <item itemvalue="TestNG.Tests.koopTabVisibility" />
+      <item itemvalue="TestNG.Tests.huurTabVisibility" />
+      <item itemvalue="TestNG.Tests.searchButtonDisabled" />
+      <item itemvalue="TestNG.Tests.pressOnHuur" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.Tests" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.Tests.openPage" />
+      <list>
+        <item itemvalue="TestNG.Tests.pressOnHuur" />
+        <item itemvalue="TestNG.Tests.searchButtonDisabled" />
+        <item itemvalue="TestNG.Tests.huurTabVisibility" />
+        <item itemvalue="TestNG.Tests.koopTabVisibility" />
+        <item itemvalue="TestNG.Tests" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -444,104 +538,108 @@
       <workItem from="1523019936486" duration="9300000" />
       <workItem from="1523188662779" duration="1843000" />
       <workItem from="1523190720516" duration="1603000" />
+      <workItem from="1523200085913" duration="507000" />
+      <workItem from="1523201541903" duration="729000" />
+      <workItem from="1523202633226" duration="3364000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests - 2018.04.08 at 05h 05m 16s.xml">
-      <configuration name="Tests" configurationId="TestNG" />
+    <history-entry file="Tests_koopTabVisibility - 2018.04.08 at 09h 10m 22s.xml">
+      <configuration name="Tests.koopTabVisibility" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests - 2018.04.08 at 05h 05m 59s.xml">
-      <configuration name="Tests" configurationId="TestNG" />
+    <history-entry file="Tests_koopTabVisibility - 2018.04.08 at 09h 11m 14s.xml">
+      <configuration name="Tests.koopTabVisibility" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests - 2018.04.08 at 05h 11m 56s.xml">
-      <configuration name="Tests" configurationId="TestNG" />
+    <history-entry file="Tests_huurTabVisibility - 2018.04.08 at 09h 14m 27s.xml">
+      <configuration name="Tests.huurTabVisibility" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests - 2018.04.08 at 05h 12m 20s.xml">
-      <configuration name="Tests" configurationId="TestNG" />
+    <history-entry file="Tests_searchButtonDisabled - 2018.04.08 at 09h 19m 52s.xml">
+      <configuration name="Tests.searchButtonDisabled" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests - 2018.04.08 at 05h 13m 21s.xml">
-      <configuration name="Tests" configurationId="TestNG" />
+    <history-entry file="Tests_pressOnHuur - 2018.04.08 at 09h 38m 04s.xml">
+      <configuration name="Tests.pressOnHuur" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests - 2018.04.08 at 05h 17m 10s.xml">
-      <configuration name="Tests" configurationId="TestNG" />
+    <history-entry file="Tests_pressOnHuur - 2018.04.08 at 09h 41m 35s.xml">
+      <configuration name="Tests.pressOnHuur" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests - 2018.04.08 at 05h 33m 04s.xml">
-      <configuration name="Tests" configurationId="TestNG" />
+    <history-entry file="Tests_pressOnHuur - 2018.04.08 at 09h 42m 43s.xml">
+      <configuration name="Tests.pressOnHuur" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests - 2018.04.08 at 05h 46m 15s.xml">
-      <configuration name="Tests" configurationId="TestNG" />
+    <history-entry file="Tests_pressOnHuur - 2018.04.08 at 09h 44m 37s.xml">
+      <configuration name="Tests.pressOnHuur" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests - 2018.04.08 at 05h 49m 59s.xml">
-      <configuration name="Tests" configurationId="TestNG" />
+    <history-entry file="Tests_pressOnHuur - 2018.04.08 at 09h 45m 15s.xml">
+      <configuration name="Tests.pressOnHuur" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests - 2018.04.08 at 06h 08m 44s.xml">
-      <configuration name="Tests" configurationId="TestNG" />
+    <history-entry file="Tests_pressOnHuur - 2018.04.08 at 09h 45m 55s.xml">
+      <configuration name="Tests.pressOnHuur" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33005000" />
+    <option name="totallyTimeSpent" value="37605000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1857" height="1092" extended-state="6" />
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37040818" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2932243" sideWeight="0.502682" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2897959" sideWeight="0.497318" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1477089" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39928487" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49272236" weight="0.37014315" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50889486" side_tool="true" visible="true" weight="0.28936607" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4911051" visible="true" weight="0.28936607" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.206469" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39928487" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2932243" sideWeight="0.502682" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37149534" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2932243" sideWeight="0.497318" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12796935" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12796935" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497318" visible="true" weight="0.2932243" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995327" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.502682" side_tool="true" visible="true" weight="0.2932243" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.37149534" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,13 +652,52 @@
     <breakpoint-manager>
       <option name="time" value="7" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="59" column="102" selection-start-line="59" selection-start-column="102" selection-end-line="59" selection-end-column="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/fundanl/test_suite/Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2184#2185#0" expanded="true" />
+            <element signature="e#2238#2239#0" expanded="true" />
+            <element signature="e#2387#2388#0" expanded="true" />
+            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#2518#2519#0" expanded="true" />
+            <element signature="e#2570#2571#0" expanded="true" />
+            <element signature="e#2641#2642#0" expanded="true" />
+            <element signature="e#2693#2694#0" expanded="true" />
+            <element signature="e#2764#2765#0" expanded="true" />
+            <element signature="e#2816#2817#0" expanded="true" />
+            <element signature="e#2887#2888#0" expanded="true" />
+            <element signature="e#2939#2940#0" expanded="true" />
+            <element signature="e#3040#3041#0" expanded="true" />
+            <element signature="e#3094#3095#0" expanded="true" />
+            <element signature="e#3164#3165#0" expanded="true" />
+            <element signature="e#3214#3215#0" expanded="true" />
+            <element signature="e#3291#3292#0" expanded="true" />
+            <element signature="e#3341#3342#0" expanded="true" />
+            <element signature="e#2664#2665#0" expanded="true" />
+            <element signature="e#2709#2710#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/KoopPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
-          <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1125#1126#0" expanded="true" />
@@ -596,15 +733,14 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
-          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding />
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/Base.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
-          <caret line="59" column="102" lean-forward="false" selection-start-line="59" selection-start-column="102" selection-end-line="59" selection-end-column="102" />
+          <caret line="59" column="102" selection-start-line="59" selection-start-column="102" selection-end-line="59" selection-end-column="102" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -614,9 +750,27 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/fundanl/test_suite/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2184#2185#0" expanded="true" />
+            <element signature="e#2238#2239#0" expanded="true" />
+            <element signature="e#2387#2388#0" expanded="true" />
+            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#2518#2519#0" expanded="true" />
+            <element signature="e#2570#2571#0" expanded="true" />
+            <element signature="e#2641#2642#0" expanded="true" />
+            <element signature="e#2693#2694#0" expanded="true" />
+            <element signature="e#2764#2765#0" expanded="true" />
+            <element signature="e#2816#2817#0" expanded="true" />
+            <element signature="e#2887#2888#0" expanded="true" />
+            <element signature="e#2939#2940#0" expanded="true" />
+            <element signature="e#3040#3041#0" expanded="true" />
+            <element signature="e#3094#3095#0" expanded="true" />
+            <element signature="e#3164#3165#0" expanded="true" />
+            <element signature="e#3214#3215#0" expanded="true" />
+            <element signature="e#3291#3292#0" expanded="true" />
+            <element signature="e#3341#3342#0" expanded="true" />
             <element signature="e#2664#2665#0" expanded="true" />
             <element signature="e#2709#2710#0" expanded="true" />
           </folding>
@@ -626,7 +780,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/KoopPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1278">
-          <caret line="99" column="5" lean-forward="false" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+          <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1125#1126#0" expanded="true" />
@@ -662,15 +816,14 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
-          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding />
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/Base.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
-          <caret line="59" column="102" lean-forward="false" selection-start-line="59" selection-start-column="102" selection-end-line="59" selection-end-column="102" />
+          <caret line="59" column="102" selection-start-line="59" selection-start-column="102" selection-end-line="59" selection-end-column="102" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -683,6 +836,24 @@
           <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2184#2185#0" expanded="true" />
+            <element signature="e#2238#2239#0" expanded="true" />
+            <element signature="e#2387#2388#0" expanded="true" />
+            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#2518#2519#0" expanded="true" />
+            <element signature="e#2570#2571#0" expanded="true" />
+            <element signature="e#2641#2642#0" expanded="true" />
+            <element signature="e#2693#2694#0" expanded="true" />
+            <element signature="e#2764#2765#0" expanded="true" />
+            <element signature="e#2816#2817#0" expanded="true" />
+            <element signature="e#2887#2888#0" expanded="true" />
+            <element signature="e#2939#2940#0" expanded="true" />
+            <element signature="e#3040#3041#0" expanded="true" />
+            <element signature="e#3094#3095#0" expanded="true" />
+            <element signature="e#3164#3165#0" expanded="true" />
+            <element signature="e#3214#3215#0" expanded="true" />
+            <element signature="e#3291#3292#0" expanded="true" />
+            <element signature="e#3341#3342#0" expanded="true" />
             <element signature="e#2664#2665#0" expanded="true" />
             <element signature="e#2709#2710#0" expanded="true" />
           </folding>
@@ -692,7 +863,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/KoopPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
-          <caret line="34" column="6" lean-forward="false" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1125#1126#0" expanded="true" />
@@ -728,7 +899,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/Base.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
-          <caret line="59" column="35" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <caret line="59" column="35" selection-start-line="59" selection-end-line="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -738,9 +909,27 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/fundanl/test_suite/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
-          <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2184#2185#0" expanded="true" />
+            <element signature="e#2238#2239#0" expanded="true" />
+            <element signature="e#2387#2388#0" expanded="true" />
+            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#2518#2519#0" expanded="true" />
+            <element signature="e#2570#2571#0" expanded="true" />
+            <element signature="e#2641#2642#0" expanded="true" />
+            <element signature="e#2693#2694#0" expanded="true" />
+            <element signature="e#2764#2765#0" expanded="true" />
+            <element signature="e#2816#2817#0" expanded="true" />
+            <element signature="e#2887#2888#0" expanded="true" />
+            <element signature="e#2939#2940#0" expanded="true" />
+            <element signature="e#3040#3041#0" expanded="true" />
+            <element signature="e#3094#3095#0" expanded="true" />
+            <element signature="e#3164#3165#0" expanded="true" />
+            <element signature="e#3214#3215#0" expanded="true" />
+            <element signature="e#3291#3292#0" expanded="true" />
+            <element signature="e#3341#3342#0" expanded="true" />
             <element signature="e#2664#2665#0" expanded="true" />
             <element signature="e#2709#2710#0" expanded="true" />
           </folding>
@@ -750,7 +939,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/KoopPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1566">
-          <caret line="87" column="46" lean-forward="false" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
+          <caret line="87" column="46" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1125#1126#0" expanded="true" />
@@ -786,7 +975,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/data.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -796,6 +985,24 @@
           <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2184#2185#0" expanded="true" />
+            <element signature="e#2238#2239#0" expanded="true" />
+            <element signature="e#2387#2388#0" expanded="true" />
+            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#2518#2519#0" expanded="true" />
+            <element signature="e#2570#2571#0" expanded="true" />
+            <element signature="e#2641#2642#0" expanded="true" />
+            <element signature="e#2693#2694#0" expanded="true" />
+            <element signature="e#2764#2765#0" expanded="true" />
+            <element signature="e#2816#2817#0" expanded="true" />
+            <element signature="e#2887#2888#0" expanded="true" />
+            <element signature="e#2939#2940#0" expanded="true" />
+            <element signature="e#3040#3041#0" expanded="true" />
+            <element signature="e#3094#3095#0" expanded="true" />
+            <element signature="e#3164#3165#0" expanded="true" />
+            <element signature="e#3214#3215#0" expanded="true" />
+            <element signature="e#3291#3292#0" expanded="true" />
+            <element signature="e#3341#3342#0" expanded="true" />
             <element signature="e#2664#2665#0" expanded="true" />
             <element signature="e#2709#2710#0" expanded="true" />
           </folding>
@@ -804,8 +1011,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/KoopPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1125#1126#0" expanded="true" />
@@ -841,9 +1047,27 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/fundanl/test_suite/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2184#2185#0" expanded="true" />
+            <element signature="e#2238#2239#0" expanded="true" />
+            <element signature="e#2387#2388#0" expanded="true" />
+            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#2518#2519#0" expanded="true" />
+            <element signature="e#2570#2571#0" expanded="true" />
+            <element signature="e#2641#2642#0" expanded="true" />
+            <element signature="e#2693#2694#0" expanded="true" />
+            <element signature="e#2764#2765#0" expanded="true" />
+            <element signature="e#2816#2817#0" expanded="true" />
+            <element signature="e#2887#2888#0" expanded="true" />
+            <element signature="e#2939#2940#0" expanded="true" />
+            <element signature="e#3040#3041#0" expanded="true" />
+            <element signature="e#3094#3095#0" expanded="true" />
+            <element signature="e#3164#3165#0" expanded="true" />
+            <element signature="e#3214#3215#0" expanded="true" />
+            <element signature="e#3291#3292#0" expanded="true" />
+            <element signature="e#3341#3342#0" expanded="true" />
             <element signature="e#2664#2665#0" expanded="true" />
             <element signature="e#2709#2710#0" expanded="true" />
           </folding>
@@ -853,14 +1077,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/Results.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/Base.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -870,14 +1094,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/data.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/KoopPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1125#1126#0" expanded="true" />
@@ -916,6 +1139,24 @@
           <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2184#2185#0" expanded="true" />
+            <element signature="e#2238#2239#0" expanded="true" />
+            <element signature="e#2387#2388#0" expanded="true" />
+            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#2518#2519#0" expanded="true" />
+            <element signature="e#2570#2571#0" expanded="true" />
+            <element signature="e#2641#2642#0" expanded="true" />
+            <element signature="e#2693#2694#0" expanded="true" />
+            <element signature="e#2764#2765#0" expanded="true" />
+            <element signature="e#2816#2817#0" expanded="true" />
+            <element signature="e#2887#2888#0" expanded="true" />
+            <element signature="e#2939#2940#0" expanded="true" />
+            <element signature="e#3040#3041#0" expanded="true" />
+            <element signature="e#3094#3095#0" expanded="true" />
+            <element signature="e#3164#3165#0" expanded="true" />
+            <element signature="e#3214#3215#0" expanded="true" />
+            <element signature="e#3291#3292#0" expanded="true" />
+            <element signature="e#3341#3342#0" expanded="true" />
             <element signature="e#2664#2665#0" expanded="true" />
             <element signature="e#2709#2710#0" expanded="true" />
           </folding>
@@ -925,7 +1166,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/Results.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -949,15 +1190,14 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
-          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding />
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/KoopPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1125#1126#0" expanded="true" />
@@ -993,14 +1233,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/Results.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/Base.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1010,14 +1250,14 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/fundanl/test_suite/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/data.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="7" />
+          <caret line="3" column="7" selection-start-line="3" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1027,6 +1267,24 @@
           <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2184#2185#0" expanded="true" />
+            <element signature="e#2238#2239#0" expanded="true" />
+            <element signature="e#2387#2388#0" expanded="true" />
+            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#2518#2519#0" expanded="true" />
+            <element signature="e#2570#2571#0" expanded="true" />
+            <element signature="e#2641#2642#0" expanded="true" />
+            <element signature="e#2693#2694#0" expanded="true" />
+            <element signature="e#2764#2765#0" expanded="true" />
+            <element signature="e#2816#2817#0" expanded="true" />
+            <element signature="e#2887#2888#0" expanded="true" />
+            <element signature="e#2939#2940#0" expanded="true" />
+            <element signature="e#3040#3041#0" expanded="true" />
+            <element signature="e#3094#3095#0" expanded="true" />
+            <element signature="e#3164#3165#0" expanded="true" />
+            <element signature="e#3214#3215#0" expanded="true" />
+            <element signature="e#3291#3292#0" expanded="true" />
+            <element signature="e#3341#3342#0" expanded="true" />
             <element signature="e#2664#2665#0" expanded="true" />
             <element signature="e#2709#2710#0" expanded="true" />
           </folding>
@@ -1034,101 +1292,104 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/HUur.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/Nieuwbouw.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/Huur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/fundanl/test_suite/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.2/testng-6.14.2.jar!/org/testng/internal/Invoker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
-          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/lang/reflect/InvocationTargetException.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/data.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.2/testng-6.14.2.jar!/org/testng/SuiteRunnerWorker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.6-jre/guava-23.6-jre-sources.jar!/com/google/common/base/Preconditions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="881" column="0" lean-forward="false" selection-start-line="881" selection-start-column="0" selection-end-line="881" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0-sources.jar!/org/openqa/selenium/WebElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="204" column="15" lean-forward="false" selection-start-line="204" selection-start-column="15" selection-end-line="204" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.6-jre/guava-23.6-jre-sources.jar!/com/google/common/base/Preconditions.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0-sources.jar!/org/openqa/selenium/WebElement.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/Results.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/FIlters.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/Base.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="59" column="102" lean-forward="false" selection-start-line="59" selection-start-column="102" selection-end-line="59" selection-end-column="102" />
+        <state relative-caret-position="285">
+          <caret line="28" column="117" selection-start-line="28" selection-start-column="117" selection-end-line="28" selection-end-column="117" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/FIlters.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/data.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/NieuwbouwPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/RecreatiePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/Nieuwbouw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/HuurPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/KoopPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="258">
+          <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1125#1126#0" expanded="true" />
@@ -1163,10 +1424,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/fundanl/test_suite/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="273">
+          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2184#2185#0" expanded="true" />
+            <element signature="e#2238#2239#0" expanded="true" />
+            <element signature="e#2387#2388#0" expanded="true" />
+            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#2518#2519#0" expanded="true" />
+            <element signature="e#2570#2571#0" expanded="true" />
+            <element signature="e#2641#2642#0" expanded="true" />
+            <element signature="e#2693#2694#0" expanded="true" />
+            <element signature="e#2764#2765#0" expanded="true" />
+            <element signature="e#2816#2817#0" expanded="true" />
+            <element signature="e#2887#2888#0" expanded="true" />
+            <element signature="e#2939#2940#0" expanded="true" />
+            <element signature="e#3040#3041#0" expanded="true" />
+            <element signature="e#3094#3095#0" expanded="true" />
+            <element signature="e#3164#3165#0" expanded="true" />
+            <element signature="e#3214#3215#0" expanded="true" />
+            <element signature="e#3291#3292#0" expanded="true" />
+            <element signature="e#3341#3342#0" expanded="true" />
             <element signature="e#2664#2665#0" expanded="true" />
             <element signature="e#2709#2710#0" expanded="true" />
           </folding>

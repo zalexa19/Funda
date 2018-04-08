@@ -1,10 +1,12 @@
 package com.fundanl.test_suite;
 
+import com.fundanl.test_suite.PageObjects.HuurPage;
 import com.fundanl.test_suite.PageObjects.KoopPage;
-import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+import com.fundanl.test_suite.PageObjects.NieuwbouwPage;
+import com.fundanl.test_suite.PageObjects.RecreatiePage;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.*;
 
 import java.io.IOException;
@@ -14,6 +16,10 @@ public class Tests extends Base{
     private Select radiusValues,rangeMinValues,rangeMaxValues;
     private WebDriverWait wait;
     private KoopPage koopPage;
+    private HuurPage huurPage;
+    private NieuwbouwPage nieuwbouwPage;
+    private RecreatiePage recreatiePage;
+
     String city="Amsterdam";
 
     @BeforeSuite
@@ -82,6 +88,83 @@ public class Tests extends Base{
 /* Description: Searches for properties in to buy in Amsterdam, without using any filters
  * Expected: User is able to input "Amsterdam" and press "zoek". Results page is loaded
  */
+
+
+    /*Desc: These tests make sure that the element is visible.
+     *
+     */
+
+    @Test(groups = "visibility")
+    public void koopTabVisibility(){
+        koopPage.getKoopButton().isEnabled();
+    }
+
+
+    @Test(groups = "visibility")
+    public void nieuwbouwTabVisibility(){
+        koopPage.getNiewbiuwButton().isEnabled();
+    }
+
+    @Test(groups = "visibility")
+    public void recreatieTabVisibility(){
+        koopPage.getRecreatieButton().isEnabled();
+    }
+
+    @Test(groups = "visibility")
+    public void europaTabVisibility(){
+        koopPage.getEuropeButton().isEnabled();
+    }
+
+    @Test(groups = "visibility")
+    public void inputFieldVisibility(){
+        koopPage.getInputField().isEnabled();
+    }
+
+    @Test(groups = "visibility")
+    public void radiusFilterVisibility(){
+        koopPage.getRadiusFilter().isEnabled();
+    }
+
+    @Test(groups = "visibility")
+    public void vanFilterVisibility(){
+        koopPage.getRangeMin().isEnabled();
+    }
+
+    @Test(groups = "visibility")
+    public void totFilterVisibility(){
+        koopPage.getRangeMax().isEnabled();
+    }
+
+    @Test(groups = "visibility")
+    public void searchBttonVisibility(){
+        koopPage.getSearchButton().isEnabled();
+    }
+
+
+    /**
+     * These tests check the the links work properly
+     */
+    @Test(groups="links")
+    public void pressOnHuur(){
+        String resultURL;
+
+        loadHome();
+        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+
+        koopPage.getHuurButton().click();
+        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+        resultURL=driver.getCurrentUrl();
+        System.out.println(resultURL+" "+huurPage.getURL());
+        Assert.assertSame(resultURL,huurPage.getURL());
+
+    }
+
+
+
+
+
+
+    /*Search field tests*/
 
     @Test
     public void searchBuyingPropertiesNoFilters(){

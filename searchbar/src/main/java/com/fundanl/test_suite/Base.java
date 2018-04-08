@@ -26,7 +26,7 @@ public class Base {
 
     public void load_prop_file() throws IOException{
         properties = new Properties();
-        fileInputStream = new FileInputStream("/home/alexz/Desktop/GitHub/Funda/searchbar/src/main/java/data.properties");
+        fileInputStream = new FileInputStream("/home/alexz/IdeaProjects/Funda/searchbar/src/main/java/data.properties");
         properties.load(fileInputStream);
     }
 

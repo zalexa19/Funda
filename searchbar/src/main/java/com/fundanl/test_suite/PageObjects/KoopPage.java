@@ -17,7 +17,7 @@ public class KoopPage {
 
 
     /*Buttons*/
-    By koopButton= By.cssSelector("a[href*koop]");
+    By koopButton= By.cssSelector("a[href*='koops']");
     By huurButton = By.cssSelector("a[href*=huur]");
     By niewbouwButton=By.cssSelector("a[href*=nieuwbouw]");
     By recreatieButton=By.cssSelector("a[href*=recreatie]");
