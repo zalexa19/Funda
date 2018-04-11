@@ -70,4 +70,8 @@ public class SharedGetters implements SharedElements {
     }
 
 
+    public WebElement getautoCompleteLightGray(WebDriver driver){
+        return driver.findElement(autoCompleteLightGray);
+    }
+
 }

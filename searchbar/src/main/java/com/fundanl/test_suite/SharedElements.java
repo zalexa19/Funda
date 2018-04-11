@@ -106,6 +106,7 @@ public interface SharedElements {
     By rangeMax = By.id("range-filter-selector-select-filter_koopprijstot");
     By inputField = By.id("autocomplete-input");
     By autoCompleteClearButton = By.cssSelector(".autocomplete-clear");
+    By autoCompleteLightGray = By.cssSelector(".icon-delete-greyLight");
 
 
 

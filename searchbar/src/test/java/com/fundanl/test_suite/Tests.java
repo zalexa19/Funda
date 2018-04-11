@@ -1,6 +1,9 @@
 package com.fundanl.test_suite;
 
 import com.fundanl.test_suite.PageObjects.*;
+import com.sun.org.apache.xpath.internal.operations.Bool;
+import org.openqa.selenium.By;
+import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -15,6 +18,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Tests extends Base implements SharedElements{
 
+    private final String EMPTY="";
     private Select radiusValues,rangeMinValues,rangeMaxValues;
     private WebDriverWait wait;
     private KoopPage koopPage;
@@ -72,26 +76,6 @@ public class Tests extends Base implements SharedElements{
         System.out.println("cookies deleted");
 
     }
-
-/*
-
-    @Test(enabled = false)
-    public void openPage(){
-
-
-        radiusValues.selectByIndex(2);
-        rangeMinValues.selectByValue("225000");
-        rangeMaxValues.selectByValue("50000");
-        koopPage.getSearchButton().click();
-
-    }
-
-    @Test(priority = 1)
-    public void dynamicSearch(){
-        String city ="Amsterdam";
-        koopPage.getInputField().sendKeys(city);
-    }
-*/
 
 
 
@@ -257,12 +241,36 @@ public class Tests extends Base implements SharedElements{
 
     /*Search field tests*/
 
-    /*This test focues on the clear field button*/
+
+    /*This test focues on the clear field button. button should not appear when the field is empty.
+    *
+    * */
 
 
-    public void SearchFieldclearInput(){
+    @Test(groups="search_field")
+    public void searchFieldNoClearButton(){
         koopPage.getInputField(driver).click();
-        koopPage.getAutoCompleteClearButton()
+
+        boolean result = isElementPresent(koopPage.getautoCompleteLightGray(driver));
+        Assert.assertEquals(false,result);
+    }
+
+
+    /*
+    * Auto clear button appears when the field is not empty
+    *
+    * */
+
+    @Test(groups = "search_field")
+    public void searchFieldClearButtonAppears(){
+        koopPage.getInputField(driver).sendKeys(city);
+
+        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+
+        koopPage.getAutoCompleteClearButton(driver).click();
+        String inputResult = koopPage.getInputField(driver).getText();
+        Assert.assertEquals(inputResult,EMPTY);
+
     }
 
 
@@ -271,9 +279,9 @@ public class Tests extends Base implements SharedElements{
     @Test
     public void searchBuyingPropertiesNoFilters(){
 
-       // wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(koopPage.getRadiusID())));
-
         koopPage.getInputField(driver).sendKeys(city);
+
+        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
         koopPage.getSearchButton(driver).click();
 
     }
@@ -304,7 +312,16 @@ public class Tests extends Base implements SharedElements{
 /***************************************************************/
 
 
+    private boolean isElementPresent(WebElement element){
+        try{
+            element.click();
+            return true;
 
+        }catch ( ElementNotVisibleException e){
+
+        }
+        return false;
+    }
 
     /*
         This method is reused in each test that compares page links.
@@ -349,56 +366,6 @@ public class Tests extends Base implements SharedElements{
     }
 
 
-
-    /*Method that creates arrays for the range filters*/
-    private String[] createExpectedMinRangeValues(){
-        int[] numbers = new int[MAX_ARRAY_SIZE];
-        String[] result =new String[MAX_ARRAY_SIZE];
-        int addition = 25000;
-        int quarters =14;
-        int halves=5;
-        int index=0;
-        String euroSign="€ ";
-
-        result[index++]="Anders";//0
-
-        numbers[index++]=0;//0
-        numbers[index++]=50000;//1
-
-
-        System.out.println("\n\n\n\n\n"+numbers[index-1]);
-
-
-        for (int i=0;i<quarters;i++){
-            System.out.println(numbers[index-1]+addition);
-            numbers[index]=numbers[index-1]+addition;
-            index++;
-
-        }
-
-
-        for (int i=0;i<halves;i++){
-            numbers[index++]=numbers[index-1]+addition*2;
-        }
-
-        for (int i=0; i<3;i++){
-            numbers[index++]=numbers[index-1]+addition*4;
-        }
-
-        numbers[index++]=numbers[index-1]+addition*20; //1.500.000
-        numbers[index++]=numbers[index-1]+addition*20; //2.000.000
-
-
-
-        //convert to strings
-
-        for (int i=index;i>1; i--){
-            result[index]=Integer.toString(numbers[index]);
-            result[index--]=euroSign+result[index];
-        }
-
-        return result;
-    }
 
 
 
