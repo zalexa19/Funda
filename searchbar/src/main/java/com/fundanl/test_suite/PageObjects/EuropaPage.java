@@ -2,15 +2,17 @@ package com.fundanl.test_suite.PageObjects;
 
 import org.openqa.selenium.WebDriver;
 
-public class RecreatiePage {
-    private final String URL = "https://www.funda.nl/recreatie/";
-    final private String TITLE="Zoek recreatiewoningen in Nederland [funda]";
+public class EuropaPage {
+    private final String URL = "https://www.funda.nl/europe/";
+    final private String TITLE="Zoek huizen en appartementen in Europa [funda]";
 
     WebDriver driver;
-    public RecreatiePage(WebDriver driver){
+
+    public EuropaPage(WebDriver driver){
         this.driver=driver;
 
     }
+
 
     public String getURL(){
         return URL;

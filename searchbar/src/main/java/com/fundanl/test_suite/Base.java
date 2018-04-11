@@ -22,6 +22,14 @@ public class Base {
     Properties properties;
     FileInputStream fileInputStream;
 
+ /*   public enum ClasssType{
+        KOOP,
+        HUUR,
+        NIEUWBOUW,
+        RECREATIE,
+        EUROPE;
+    }
+*/
 
 
     public void load_prop_file() throws IOException{
@@ -60,6 +68,9 @@ public class Base {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);//skips the "I am not a robot"
 
     }
+
+
+
 
 
 }
