@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 /*This interface includes all the elements that are used by more than 1 class*/
 public interface SharedElements {
     final int MAX_ARRAY_SIZE=30;
+    final String EURO_SIGN ="€";
 
     String radiusID = "Straal";
     String[] expectedRadiusFilterValues = {
@@ -113,6 +114,8 @@ public interface SharedElements {
 
     /*RESULTS*/
     By filterCounter = By.cssSelector("span[class='filter-count-number'");
+    By resultsList = By.cssSelector(".search-results");
+    By lastSearchQuery = By.cssSelector(".search-block__last-query-label");
 
 
 

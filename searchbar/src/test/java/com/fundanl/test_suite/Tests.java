@@ -1,18 +1,14 @@
 package com.fundanl.test_suite;
 
 import com.fundanl.test_suite.PageObjects.*;
-import org.omg.CORBA.INTERNAL;
 import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.*;
-
 import java.io.IOException;
-
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -61,9 +57,6 @@ public class Tests extends Base implements SharedElements{
 
         driver.get(koopPage.getURL());
 
-        //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS); //time to pass the i'm not a robot
-
-
         System.out.println("Creating list for radius");
         radiusValues=new Select(koopPage.getRadius(driver));
         rangeMinValues=new Select(koopPage.getRangeMin(driver));
@@ -75,16 +68,10 @@ public class Tests extends Base implements SharedElements{
     public void deleteCookies(){
         driver.manage().deleteAllCookies();
 
-        System.out.println("cookies deleted");
-
     }
 
 
 
-
-/* Description: Searches for properties in to buy in Amsterdam, without using any filters
- * Expected: User is able to input "Amsterdam" and press "zoek". Results page is loaded
- */
 
 
     /*Desc: These tests make sure that the element is visible.
@@ -152,6 +139,7 @@ public class Tests extends Base implements SharedElements{
     public void checkHuurTabLink(){
         compareLinks(koopPage.getHuurButton(driver),huurPage.getURL());
     }
+
 
     @Test(groups="links")
     public void checKoopTabLink(){
@@ -239,13 +227,15 @@ public class Tests extends Base implements SharedElements{
 
 
 
+
     /*These tests check that user is able to input values into "Anders" field*/
+    /*************************************************************************/
 
 
-
-    /*
-    This test checks that a "valid" number can be used in the "van" price field.
+    /**
+     *     This test checks that a "valid" number can be used in the "van" price field.
      */
+
     @Test(dependsOnMethods = "checkRangeMinFilterValues")
     public void vanFieldEnterValidChars(){ ;
         enterCharsIntoFilter(rangeMinValues,koopPage.getVanFilterAnders(driver),"103");
@@ -253,9 +243,9 @@ public class Tests extends Base implements SharedElements{
     }
 
 
-    /*
-    In this test, invalid numbers are inserted.
-    Expected result: The values should be ignore, the result page should indicate that no filters were applied
+    /**
+     *  In this test, invalid numbers are inserted.
+     *  Expected result: The values should be ignore, the result page should indicate that no filters were applied
      */
     @Test (dependsOnMethods = "checkRangeMinFilterValues")
     public void vanFieldEnterInvalidChars(){
@@ -274,12 +264,14 @@ public class Tests extends Base implements SharedElements{
      */
     @Test (dependsOnMethods = "checkRangeMinFilterValues")
     public void vanInputCheckMaxLength(){
-
-
+        enterCharsIntoFilter(rangeMinValues,koopPage.getVanFilterAnders(driver),"999999991");
     }
 
+
+
+
     /**
-     * This test makes sure that when "Anders" is selected
+     * This test makes sure that when "Anders" is selected and user inputes no values, "0" is placed
      */
     @Test (dependsOnMethods = "checkRangeMinFilterValues")
     public void vanInputCheckMinLength(){
@@ -287,8 +279,9 @@ public class Tests extends Base implements SharedElements{
     }
 
 
-
-
+    /**
+     * This test make sure that user is able to use the arrow to increase, decrease the amount
+     */
     @Test (dependsOnMethods = "checkRangeMinFilterValues")
     public void vanFieldUseArrows(){
         rangeMinValues.selectByIndex(0);
@@ -296,7 +289,9 @@ public class Tests extends Base implements SharedElements{
     }
 
 
-
+    /**
+     * These tests are the same tests as for "van" filter, only applied on "tot".
+     */
     @Test (dependsOnMethods = "checkRangeMaxFilterValues")
     public void totFieldEnterValidChars(){
 
@@ -319,10 +314,9 @@ public class Tests extends Base implements SharedElements{
     /*Search field tests*/
 
 
-    /*This test focues on the clear field button. button should not appear when the field is empty.
-    *
-    * */
-
+    /**
+     * clear field button should not appear if user didn't insert any values into the search bar
+     */
 
     @Test(groups="search_field")
     public void searchFieldNoClearButton(){
@@ -351,6 +345,7 @@ public class Tests extends Base implements SharedElements{
     }
 
 
+
     /*
     * When pressing on "zoek" with an empty field, results page is loaded
     *
@@ -358,7 +353,6 @@ public class Tests extends Base implements SharedElements{
 
     @Test (groups = "links")
     public void pressSearchWhenFieldIsEmpty(){
-
         compareLinks(koopPage.getSearchButton(driver),resultsPage.getURL_WHEN_EMPTY());
 
     }
@@ -371,26 +365,73 @@ public class Tests extends Base implements SharedElements{
 
     /*SEARCHING TESTS*/
 
+    /**
+     * This test makes sure that it's possible to search without any data at all
+     */
     @Test
+    public void searchBuyingPropertiesNoData(){
+        koopPage.getSearchButton(driver).click();
+    }
+
+
+    /**
+     * This test makes sure that it is possible to search without filters
+     */
     public void searchBuyingPropertiesNoFilters(){
-
         koopPage.getInputField(driver).sendKeys(city);
-
         driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
         koopPage.getSearchButton(driver).click();
+    }
+
+    /**
+     * These test make sure that it's possible to search using one filter only
+     */
+
+    @Test
+    public void searchBuyingPropertiesMinRangeOnly(){
+
+    }
+
+    @Test
+    public void searchBuyingPropertiesMaxRangeOnly(){
+
 
     }
 
 
+    /**
+     * This test makes sure that when no search was done, "Laatste zoekopdracht" is not visible
+     */
     @Test
     public void lastSearchFieldDefaultValue(){
 
+        boolean expected = false;
+        boolean result=true;
+
+        driver.get(koopPage.getURL());
+
+        if (driver.findElements(lastSearchQuery).size()<1){ //if 0, it means that the value doesn't appear
+            result=false;
+        }
+        Assert.assertEquals(expected,result);
+
     }
 
+    /**
+     * This test checks that the last search query appears, after performing 1 search.
+     */
     @Test
     public void lastSearchFieldUpdated(){
+        String van = "75.000";
+        koopPage.getInputField(driver).sendKeys(city);
+        radiusValues.selectByValue(EURO_SIGN+" "+van);
+        koopPage.getSearchButton(driver).click();
+
+        driver.get(koopPage.getURL());
+        driver.findElement(lastSearchQuery);
 
     }
+
 
 
 
@@ -501,6 +542,25 @@ public class Tests extends Base implements SharedElements{
 
     }
 
+
+
+
+
+
+
+    public void getResults(){
+        List<WebElement> resultsOnPage=driver.findElements(resultsList);
+        System.out.println("results size: "+resultsOnPage.size());
+
+
+    }
+
+
+
+
+
+
+
     public void printList(Select s){
         List<WebElement> list = s.getOptions();
 
@@ -509,6 +569,11 @@ public class Tests extends Base implements SharedElements{
         }
         System.out.println("size: "+list.size());
     }
+
+
+
+
+
 }
 
 

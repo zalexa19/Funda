@@ -3,6 +3,7 @@ package com.fundanl.test_suite;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 public class SharedGetters implements SharedElements {
 
@@ -82,8 +83,12 @@ public class SharedGetters implements SharedElements {
     }
 
 
+    public WebElement getLastSearchQueryLabel(WebDriver driver){
+        return driver.findElement(lastSearchQuery);
+    }
     /*SEARCH PAGE*/
     public WebElement getFilterCounter(WebDriver driver){
         return driver.findElement(filterCounter);
     }
+
 }
