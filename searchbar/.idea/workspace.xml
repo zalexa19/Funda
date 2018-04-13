@@ -28,14 +28,14 @@
       <file leaf-file-name="Tests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/fundanl/test_suite/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="265" column="19" selection-start-line="265" selection-start-column="19" selection-end-line="265" selection-end-column="19" />
+            <state relative-caret-position="-143">
+              <caret line="162" column="19" lean-forward="true" selection-start-line="162" selection-start-column="19" selection-end-line="162" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2133#2134#0" expanded="true" />
                 <element signature="e#2191#2192#0" expanded="true" />
-                <element signature="e#9984#9985#0" expanded="true" />
-                <element signature="e#10040#10041#0" expanded="true" />
+                <element signature="e#3903#3904#0" expanded="true" />
+                <element signature="e#3963#3964#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,6 +105,7 @@
       <find>radiusValues</find>
       <find>van</find>
       <find>EURO</find>
+      <find>links</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -131,6 +132,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/fundanl/test_suite/Tests.java" />
       </list>
     </option>
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="TestNG" name="Tests.searchBttonVisibility" />
+    </enabled-run-configurations>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -263,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Tests.vanInputCheckMaxLength">
+  <component name="RunManager" selected="TestNG.Tests.checkKoopPageTitle">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -286,7 +292,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Tests.lastSearchFieldDefaultValue" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="searchbar" />
       <extension name="coverage">
         <pattern>
@@ -299,7 +305,36 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.fundanl.test_suite" />
       <option name="MAIN_CLASS_NAME" value="com.fundanl.test_suite.Tests" />
-      <option name="METHOD_NAME" value="lastSearchFieldDefaultValue" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Tests.checkHuurTabLink" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="searchbar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fundanl.test_suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.fundanl.test_suite" />
+      <option name="MAIN_CLASS_NAME" value="com.fundanl.test_suite.Tests" />
+      <option name="METHOD_NAME" value="checkHuurTabLink" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -315,7 +350,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Tests.lastSearchFieldUpdated" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.checkKoopPageTitle" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="searchbar" />
       <extension name="coverage">
         <pattern>
@@ -328,7 +363,36 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.fundanl.test_suite" />
       <option name="MAIN_CLASS_NAME" value="com.fundanl.test_suite.Tests" />
-      <option name="METHOD_NAME" value="lastSearchFieldUpdated" />
+      <option name="METHOD_NAME" value="checkKoopPageTitle" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Tests.searchBttonVisibility" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="searchbar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fundanl.test_suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.fundanl.test_suite" />
+      <option name="MAIN_CLASS_NAME" value="com.fundanl.test_suite.Tests" />
+      <option name="METHOD_NAME" value="searchBttonVisibility" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -358,64 +422,6 @@
       <option name="PACKAGE_NAME" value="com.fundanl.test_suite" />
       <option name="MAIN_CLASS_NAME" value="com.fundanl.test_suite.Tests" />
       <option name="METHOD_NAME" value="searchBuyingPropertiesNoData" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="Tests.searchBuyingPropertiesNoFilters" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="searchbar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fundanl.test_suite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.fundanl.test_suite" />
-      <option name="MAIN_CLASS_NAME" value="com.fundanl.test_suite.Tests" />
-      <option name="METHOD_NAME" value="searchBuyingPropertiesNoFilters" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="Tests.vanInputCheckMaxLength" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="searchbar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fundanl.test_suite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.fundanl.test_suite" />
-      <option name="MAIN_CLASS_NAME" value="com.fundanl.test_suite.Tests" />
-      <option name="METHOD_NAME" value="vanInputCheckMaxLength" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -467,19 +473,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="TestNG.Tests.searchBuyingPropertiesNoFilters" />
       <item itemvalue="TestNG.Tests.searchBuyingPropertiesNoData" />
-      <item itemvalue="TestNG.Tests.lastSearchFieldDefaultValue" />
-      <item itemvalue="TestNG.Tests.lastSearchFieldUpdated" />
-      <item itemvalue="TestNG.Tests.vanInputCheckMaxLength" />
+      <item itemvalue="TestNG.Tests" />
+      <item itemvalue="TestNG.Tests.checkHuurTabLink" />
+      <item itemvalue="TestNG.Tests.searchBttonVisibility" />
+      <item itemvalue="TestNG.Tests.checkKoopPageTitle" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Tests.vanInputCheckMaxLength" />
-        <item itemvalue="TestNG.Tests.lastSearchFieldUpdated" />
+        <item itemvalue="TestNG.Tests.checkKoopPageTitle" />
+        <item itemvalue="TestNG.Tests.searchBttonVisibility" />
+        <item itemvalue="TestNG.Tests" />
         <item itemvalue="TestNG.Tests.searchBuyingPropertiesNoData" />
-        <item itemvalue="TestNG.Tests.lastSearchFieldDefaultValue" />
-        <item itemvalue="TestNG.Tests.searchBuyingPropertiesNoFilters" />
+        <item itemvalue="TestNG.Tests.checkHuurTabLink" />
       </list>
     </recent_temporary>
   </component>
@@ -507,44 +513,44 @@
       <workItem from="1523439688578" duration="5694000" />
       <workItem from="1523445484812" duration="12997000" />
       <workItem from="1523468076251" duration="189000" />
-      <workItem from="1523468571919" duration="14604000" />
+      <workItem from="1523468571919" duration="17155000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests_lastSearchFieldDefaultValue - 2018.04.13 at 04h 36m 31s.xml">
-      <configuration name="Tests.lastSearchFieldDefaultValue" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests_lastSearchFieldDefaultValue - 2018.04.13 at 04h 38m 55s.xml">
-      <configuration name="Tests.lastSearchFieldDefaultValue" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests_lastSearchFieldDefaultValue - 2018.04.13 at 04h 42m 43s.xml">
-      <configuration name="Tests.lastSearchFieldDefaultValue" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests_lastSearchFieldDefaultValue - 2018.04.13 at 04h 43m 28s.xml">
-      <configuration name="Tests.lastSearchFieldDefaultValue" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests_lastSearchFieldDefaultValue - 2018.04.13 at 04h 52m 18s.xml">
-      <configuration name="Tests.lastSearchFieldDefaultValue" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests_searchBuyingPropertiesNoData - 2018.04.13 at 04h 52m 39s.xml">
-      <configuration name="Tests.searchBuyingPropertiesNoData" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests_searchBuyingPropertiesNoData - 2018.04.13 at 05h 04m 54s.xml">
-      <configuration name="Tests.searchBuyingPropertiesNoData" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests_lastSearchFieldUpdated - 2018.04.13 at 05h 05m 18s.xml">
-      <configuration name="Tests.lastSearchFieldUpdated" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests_vanInputCheckMaxLength - 2018.04.13 at 05h 15m 23s.xml">
-      <configuration name="Tests.vanInputCheckMaxLength" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Tests_vanInputCheckMaxLength - 2018.04.13 at 05h 16m 37s.xml">
       <configuration name="Tests.vanInputCheckMaxLength" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="Tests_vanInputCheckMaxLength - 2018.04.13 at 05h 20m 23s.xml">
+      <configuration name="Tests.vanInputCheckMaxLength" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests - 2018.04.13 at 05h 23m 49s.xml">
+      <configuration name="Tests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests - 2018.04.13 at 05h 25m 24s.xml">
+      <configuration name="Tests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests_checkHuurTabLink - 2018.04.13 at 05h 27m 55s.xml">
+      <configuration name="Tests.checkHuurTabLink" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests_checkHuurTabLink - 2018.04.13 at 05h 29m 21s.xml">
+      <configuration name="Tests.checkHuurTabLink" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests - 2018.04.13 at 05h 36m 54s.xml">
+      <configuration name="Tests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests_searchBuyingPropertiesNoData - 2018.04.13 at 05h 38m 20s.xml">
+      <configuration name="Tests.searchBuyingPropertiesNoData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests - 2018.04.13 at 05h 40m 13s.xml">
+      <configuration name="Tests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests_searchBttonVisibility - 2018.04.13 at 05h 40m 39s.xml">
+      <configuration name="Tests.searchBttonVisibility" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72002000" />
+    <option name="totallyTimeSpent" value="74553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -552,20 +558,21 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4199461" weight="0.36912066" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.41725066" weight="0.36912066" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.432345" side_tool="true" visible="true" weight="0.2597137" />
+      <window_info anchor="bottom" x="65" y="169" width="1855" height="557" id="Event Log" order="7" sideWeight="0.29326147" side_tool="true" type="WINDOWED" visible="true" weight="0.56952965" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.56765497" visible="true" weight="0.2597137" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.70673853" weight="0.56952965" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.206469" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.206469" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32924336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -577,7 +584,6 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -621,30 +627,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="59" column="102" selection-start-line="59" selection-start-column="102" selection-end-line="59" selection-end-column="102" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/fundanl/test_suite/Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2133#2134#0" expanded="true" />
-            <element signature="e#2191#2192#0" expanded="true" />
-            <element signature="e#9984#9985#0" expanded="true" />
-            <element signature="e#10040#10041#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/KoopPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1278">
@@ -680,8 +662,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2133#2134#0" expanded="true" />
             <element signature="e#2191#2192#0" expanded="true" />
-            <element signature="e#9984#9985#0" expanded="true" />
-            <element signature="e#10040#10041#0" expanded="true" />
+            <element signature="e#3903#3904#0" expanded="true" />
+            <element signature="e#3963#3964#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -714,8 +696,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2133#2134#0" expanded="true" />
             <element signature="e#2191#2192#0" expanded="true" />
-            <element signature="e#9984#9985#0" expanded="true" />
-            <element signature="e#10040#10041#0" expanded="true" />
+            <element signature="e#3903#3904#0" expanded="true" />
+            <element signature="e#3963#3964#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -745,8 +727,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2133#2134#0" expanded="true" />
             <element signature="e#2191#2192#0" expanded="true" />
-            <element signature="e#9984#9985#0" expanded="true" />
-            <element signature="e#10040#10041#0" expanded="true" />
+            <element signature="e#3903#3904#0" expanded="true" />
+            <element signature="e#3963#3964#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -768,8 +750,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2133#2134#0" expanded="true" />
             <element signature="e#2191#2192#0" expanded="true" />
-            <element signature="e#9984#9985#0" expanded="true" />
-            <element signature="e#10040#10041#0" expanded="true" />
+            <element signature="e#3903#3904#0" expanded="true" />
+            <element signature="e#3963#3964#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -815,8 +797,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2133#2134#0" expanded="true" />
             <element signature="e#2191#2192#0" expanded="true" />
-            <element signature="e#9984#9985#0" expanded="true" />
-            <element signature="e#10040#10041#0" expanded="true" />
+            <element signature="e#3903#3904#0" expanded="true" />
+            <element signature="e#3963#3964#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -901,8 +883,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2133#2134#0" expanded="true" />
             <element signature="e#2191#2192#0" expanded="true" />
-            <element signature="e#9984#9985#0" expanded="true" />
-            <element signature="e#10040#10041#0" expanded="true" />
+            <element signature="e#3903#3904#0" expanded="true" />
+            <element signature="e#3963#3964#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1061,16 +1043,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0.jar!/org/openqa/selenium/remote/ErrorHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/fundanl/test_suite/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="265" column="19" selection-start-line="265" selection-start-column="19" selection-end-line="265" selection-end-column="19" />
+        <state relative-caret-position="-143">
+          <caret line="162" column="19" lean-forward="true" selection-start-line="162" selection-start-column="19" selection-end-line="162" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2133#2134#0" expanded="true" />
             <element signature="e#2191#2192#0" expanded="true" />
-            <element signature="e#9984#9985#0" expanded="true" />
-            <element signature="e#10040#10041#0" expanded="true" />
+            <element signature="e#3903#3904#0" expanded="true" />
+            <element signature="e#3963#3964#0" expanded="true" />
           </folding>
         </state>
       </provider>

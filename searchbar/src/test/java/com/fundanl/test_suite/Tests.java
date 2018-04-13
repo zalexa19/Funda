@@ -137,6 +137,7 @@ public class Tests extends Base implements SharedElements{
 
     @Test(groups="links")
     public void checkHuurTabLink(){
+        loadHome();
         compareLinks(koopPage.getHuurButton(driver),huurPage.getURL());
     }
 
@@ -151,16 +152,22 @@ public class Tests extends Base implements SharedElements{
 
     @Test(groups="links")
     public void checkNieuwbouwLink(){
+
+        loadHome();
         compareLinks(koopPage.getNiewbiuwButton(driver),nieuwbouwPage.getURL());
     }
 
     @Test(groups="links")
     public void checkRecreatieLink(){
+
+        loadHome();
         compareLinks(koopPage.getRecreatieButton(driver),recreatiePage.getURL());
     }
 
     @Test(groups="links")
-    public void checkEuropeLink(){
+    public void checkEuropeLink()
+    {
+        loadHome();
         compareLinks(koopPage.getEuropeButton(driver),europaPage.getURL());
     }
 
@@ -256,15 +263,6 @@ public class Tests extends Base implements SharedElements{
         wait.until(ExpectedConditions.visibilityOfElementLocated(filterCounter));
         compareFilterCounterOnResutlsPage(0,driver.findElement(filterCounter).getText());
 
-    }
-
-
-    /**
-     * In this test we make sure that the field has a maximum length
-     */
-    @Test (dependsOnMethods = "checkRangeMinFilterValues")
-    public void vanInputCheckMaxLength(){
-        enterCharsIntoFilter(rangeMinValues,koopPage.getVanFilterAnders(driver),"999999991");
     }
 
 
@@ -370,6 +368,7 @@ public class Tests extends Base implements SharedElements{
      */
     @Test
     public void searchBuyingPropertiesNoData(){
+        driver.get(koopPage.getURL());
         koopPage.getSearchButton(driver).click();
     }
 
@@ -387,12 +386,12 @@ public class Tests extends Base implements SharedElements{
      * These test make sure that it's possible to search using one filter only
      */
 
-    @Test
+    @Test (enabled = false)
     public void searchBuyingPropertiesMinRangeOnly(){
 
     }
 
-    @Test
+    @Test(enabled = false)
     public void searchBuyingPropertiesMaxRangeOnly(){
 
 
@@ -457,10 +456,11 @@ public class Tests extends Base implements SharedElements{
 
 
 
+
 /***************************************************************/
 /**********************PRIVATE_METHODS**************************/
 /***************************************************************/
-
+//These methods are used in the tests
 
     private boolean isElementPresent(WebElement element){
         try{
@@ -480,7 +480,6 @@ public class Tests extends Base implements SharedElements{
      */
     private void compareLinks(WebElement button, String expectedUrl){
         String actualUrl;
-
         button.click();
 
         driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
