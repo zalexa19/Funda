@@ -107,6 +107,13 @@ public interface SharedElements {
     By inputField = By.id("autocomplete-input");
     By autoCompleteClearButton = By.cssSelector(".autocomplete-clear");
     By autoCompleteLightGray = By.cssSelector(".icon-delete-greyLight");
+    By vanFilterAnders = By.cssSelector("input[name='filter_KoopprijsVan']");
+    By vanFilterAndersAutoClear = By.cssSelector("button[class='.button-tertiary range-filter-selector__button-clear-value']");
+
+
+    /*RESULTS*/
+    By filterCounter = By.cssSelector("span[class='filter-count-number'");
+
 
 
 

@@ -74,4 +74,16 @@ public class SharedGetters implements SharedElements {
         return driver.findElement(autoCompleteLightGray);
     }
 
+    public WebElement getVanFilterAnders(WebDriver driver){
+        return driver.findElement(vanFilterAnders);
+    }
+    public WebElement getVanFilterAndersAutoClear(WebDriver driver){
+        return driver.findElement(vanFilterAndersAutoClear);
+    }
+
+
+    /*SEARCH PAGE*/
+    public WebElement getFilterCounter(WebDriver driver){
+        return driver.findElement(filterCounter);
+    }
 }

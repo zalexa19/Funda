@@ -37,8 +37,8 @@
       <file leaf-file-name="Tests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/fundanl/test_suite/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="290" column="46" lean-forward="true" selection-start-line="290" selection-start-column="46" selection-end-line="290" selection-end-column="46" />
+            <state relative-caret-position="579">
+              <caret line="281" column="46" selection-start-line="281" selection-start-column="46" selection-end-line="281" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,13 +46,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Base.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/Base.java">
+      <file leaf-file-name="Results.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/Results.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,10 +63,14 @@
       <file leaf-file-name="SharedGetters.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/SharedGetters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="73" column="55" selection-start-line="73" selection-start-column="55" selection-end-line="73" selection-end-column="55" />
+            <state relative-caret-position="429">
+              <caret line="79" column="59" selection-start-line="79" selection-start-column="59" selection-end-line="79" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1856#1857#0" expanded="true" />
+                <element signature="e#1884#1885#0" expanded="true" />
+                <element signature="e#2002#2003#0" expanded="true" />
+                <element signature="e#2044#2045#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,8 +79,8 @@
       <file leaf-file-name="SharedElements.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/SharedElements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1590">
-              <caret line="108" column="28" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="28" />
+            <state relative-caret-position="504">
+              <caret line="110" column="31" selection-start-line="110" selection-start-column="7" selection-end-line="110" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,6 +105,8 @@
       <find>huur</find>
       <find>compareLinks</find>
       <find>koopButton</find>
+      <find>radiusValues</find>
+      <find>van</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -119,6 +127,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/NieuwbouwPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/Base.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/KoopPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/Results.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/SharedElements.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/SharedGetters.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/fundanl/test_suite/Tests.java" />
@@ -256,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Tests.searchFieldClearButtonAppears">
+  <component name="RunManager" selected="TestNG.Tests.vanFieldAutoClearAppears">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -279,7 +288,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Tests.SearchFieldclearInput" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.pressSearchWhenFieldIsEmpty" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="searchbar" />
       <extension name="coverage">
         <pattern>
@@ -292,65 +301,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.fundanl.test_suite" />
       <option name="MAIN_CLASS_NAME" value="com.fundanl.test_suite.Tests" />
-      <option name="METHOD_NAME" value="SearchFieldclearInput" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="Tests.checkRangeMaxFilterValues" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="searchbar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fundanl.test_suite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.fundanl.test_suite" />
-      <option name="MAIN_CLASS_NAME" value="com.fundanl.test_suite.Tests" />
-      <option name="METHOD_NAME" value="checkRangeMaxFilterValues" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="Tests.checkRangeMinFilterValues" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="searchbar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fundanl.test_suite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.fundanl.test_suite" />
-      <option name="MAIN_CLASS_NAME" value="com.fundanl.test_suite.Tests" />
-      <option name="METHOD_NAME" value="checkRangeMinFilterValues" />
+      <option name="METHOD_NAME" value="pressSearchWhenFieldIsEmpty" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -395,7 +346,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Tests.searchFieldClearButtonAppears" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.vanFieldAutoClearAppears" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="searchbar" />
       <extension name="coverage">
         <pattern>
@@ -408,7 +359,65 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.fundanl.test_suite" />
       <option name="MAIN_CLASS_NAME" value="com.fundanl.test_suite.Tests" />
-      <option name="METHOD_NAME" value="searchFieldClearButtonAppears" />
+      <option name="METHOD_NAME" value="vanFieldAutoClearAppears" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Tests.vanFieldEnterInvalidChars" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="searchbar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fundanl.test_suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.fundanl.test_suite" />
+      <option name="MAIN_CLASS_NAME" value="com.fundanl.test_suite.Tests" />
+      <option name="METHOD_NAME" value="vanFieldEnterInvalidChars" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Tests.vanFieldEnterValidChars" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="searchbar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fundanl.test_suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.fundanl.test_suite" />
+      <option name="MAIN_CLASS_NAME" value="com.fundanl.test_suite.Tests" />
+      <option name="METHOD_NAME" value="vanFieldEnterValidChars" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -460,19 +469,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="TestNG.Tests.checkRangeMinFilterValues" />
-      <item itemvalue="TestNG.Tests.checkRangeMaxFilterValues" />
-      <item itemvalue="TestNG.Tests.SearchFieldclearInput" />
-      <item itemvalue="TestNG.Tests.searchFieldClearButtonAppears" />
       <item itemvalue="TestNG.Tests.searchBuyingPropertiesNoFilters" />
+      <item itemvalue="TestNG.Tests.pressSearchWhenFieldIsEmpty" />
+      <item itemvalue="TestNG.Tests.vanFieldEnterValidChars" />
+      <item itemvalue="TestNG.Tests.vanFieldEnterInvalidChars" />
+      <item itemvalue="TestNG.Tests.vanFieldAutoClearAppears" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Tests.searchFieldClearButtonAppears" />
+        <item itemvalue="TestNG.Tests.vanFieldAutoClearAppears" />
+        <item itemvalue="TestNG.Tests.vanFieldEnterInvalidChars" />
+        <item itemvalue="TestNG.Tests.vanFieldEnterValidChars" />
         <item itemvalue="TestNG.Tests.searchBuyingPropertiesNoFilters" />
-        <item itemvalue="TestNG.Tests.SearchFieldclearInput" />
-        <item itemvalue="TestNG.Tests.checkRangeMaxFilterValues" />
-        <item itemvalue="TestNG.Tests.checkRangeMinFilterValues" />
+        <item itemvalue="TestNG.Tests.pressSearchWhenFieldIsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -500,60 +509,60 @@
       <workItem from="1523439688578" duration="5694000" />
       <workItem from="1523445484812" duration="12997000" />
       <workItem from="1523468076251" duration="189000" />
-      <workItem from="1523468571919" duration="1612000" />
+      <workItem from="1523468571919" duration="9617000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests_SearchFieldclearInput - 2018.04.11 at 10h 26m 58s.xml">
-      <configuration name="Tests.SearchFieldclearInput" configurationId="TestNG" />
+    <history-entry file="Tests_vanFieldEnterInvalidChars - 2018.04.13 at 03h 06m 47s.xml">
+      <configuration name="Tests.vanFieldEnterInvalidChars" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_SearchFieldclearInput - 2018.04.11 at 10h 36m 35s.xml">
-      <configuration name="Tests.SearchFieldclearInput" configurationId="TestNG" />
+    <history-entry file="Tests_vanFieldEnterInvalidChars - 2018.04.13 at 03h 07m 49s.xml">
+      <configuration name="Tests.vanFieldEnterInvalidChars" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_SearchFieldclearInput - 2018.04.11 at 10h 46m 58s.xml">
-      <configuration name="Tests.SearchFieldclearInput" configurationId="TestNG" />
+    <history-entry file="Tests_vanFieldEnterInvalidChars - 2018.04.13 at 03h 19m 40s.xml">
+      <configuration name="Tests.vanFieldEnterInvalidChars" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_SearchFieldclearInput - 2018.04.11 at 10h 58m 28s.xml">
-      <configuration name="Tests.SearchFieldclearInput" configurationId="TestNG" />
+    <history-entry file="Tests_vanFieldEnterInvalidChars - 2018.04.13 at 03h 28m 32s.xml">
+      <configuration name="Tests.vanFieldEnterInvalidChars" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_searchFieldClearButtonAppears - 2018.04.11 at 11h 02m 47s.xml">
-      <configuration name="Tests.searchFieldClearButtonAppears" configurationId="TestNG" />
+    <history-entry file="Tests_vanFieldAutoClearAppears - 2018.04.13 at 03h 36m 21s.xml">
+      <configuration name="Tests.vanFieldAutoClearAppears" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_searchBuyingPropertiesNoFilters - 2018.04.11 at 11h 04m 30s.xml">
-      <configuration name="Tests.searchBuyingPropertiesNoFilters" configurationId="TestNG" />
+    <history-entry file="Tests_vanFieldAutoClearAppears - 2018.04.13 at 03h 36m 57s.xml">
+      <configuration name="Tests.vanFieldAutoClearAppears" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_searchFieldClearButtonAppears - 2018.04.11 at 11h 05m 04s.xml">
-      <configuration name="Tests.searchFieldClearButtonAppears" configurationId="TestNG" />
+    <history-entry file="Tests_vanFieldAutoClearAppears - 2018.04.13 at 03h 37m 29s.xml">
+      <configuration name="Tests.vanFieldAutoClearAppears" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_searchFieldClearButtonAppears - 2018.04.11 at 11h 07m 35s.xml">
-      <configuration name="Tests.searchFieldClearButtonAppears" configurationId="TestNG" />
+    <history-entry file="Tests_vanFieldAutoClearAppears - 2018.04.13 at 03h 39m 54s.xml">
+      <configuration name="Tests.vanFieldAutoClearAppears" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_searchFieldClearButtonAppears - 2018.04.11 at 11h 07m 53s.xml">
-      <configuration name="Tests.searchFieldClearButtonAppears" configurationId="TestNG" />
+    <history-entry file="Tests_vanFieldAutoClearAppears - 2018.04.13 at 03h 40m 24s.xml">
+      <configuration name="Tests.vanFieldAutoClearAppears" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_searchFieldClearButtonAppears - 2018.04.11 at 11h 09m 10s.xml">
-      <configuration name="Tests.searchFieldClearButtonAppears" configurationId="TestNG" />
+    <history-entry file="Tests_vanFieldAutoClearAppears - 2018.04.13 at 03h 42m 03s.xml">
+      <configuration name="Tests.vanFieldAutoClearAppears" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59010000" />
+    <option name="totallyTimeSpent" value="67015000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.43989217" weight="0.36912066" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4291105" weight="0.36912066" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.4134771" side_tool="true" visible="true" weight="0.2597137" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.42371967" side_tool="true" visible="true" weight="0.2597137" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.58652294" visible="true" weight="0.2597137" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5762803" visible="true" weight="0.2597137" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -610,7 +619,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -903,13 +912,6 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.6-jre/guava-23.6-jre-sources.jar!/com/google/common/base/Preconditions.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0-sources.jar!/org/openqa/selenium/WebElement.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/Results.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/FIlters.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -995,10 +997,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/PageObjects/Results.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/SharedElements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="108" column="28" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="28" />
+        <state relative-caret-position="504">
+          <caret line="110" column="31" selection-start-line="110" selection-start-column="7" selection-end-line="110" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1007,18 +1021,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fundanl/test_suite/SharedGetters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="73" column="55" selection-start-line="73" selection-start-column="55" selection-end-line="73" selection-end-column="55" />
+        <state relative-caret-position="429">
+          <caret line="79" column="59" selection-start-line="79" selection-start-column="59" selection-end-line="79" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1856#1857#0" expanded="true" />
+            <element signature="e#1884#1885#0" expanded="true" />
+            <element signature="e#2002#2003#0" expanded="true" />
+            <element signature="e#2044#2045#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/fundanl/test_suite/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="290" column="46" lean-forward="true" selection-start-line="290" selection-start-column="46" selection-end-line="290" selection-end-column="46" />
+        <state relative-caret-position="579">
+          <caret line="281" column="46" selection-start-line="281" selection-start-column="46" selection-end-line="281" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

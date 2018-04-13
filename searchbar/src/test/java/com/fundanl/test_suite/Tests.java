@@ -1,18 +1,18 @@
 package com.fundanl.test_suite;
 
 import com.fundanl.test_suite.PageObjects.*;
-import com.sun.org.apache.xpath.internal.operations.Bool;
-import org.openqa.selenium.By;
+import org.omg.CORBA.INTERNAL;
 import org.openqa.selenium.ElementNotVisibleException;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
 import java.io.IOException;
-import java.util.Iterator;
+
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -26,6 +26,7 @@ public class Tests extends Base implements SharedElements{
     private NieuwbouwPage nieuwbouwPage;
     private RecreatiePage recreatiePage;
     private EuropaPage europaPage;
+    private Results resultsPage;
 
 
 
@@ -55,6 +56,7 @@ public class Tests extends Base implements SharedElements{
         nieuwbouwPage = new NieuwbouwPage(driver);
         recreatiePage = new RecreatiePage(driver);
         europaPage=new EuropaPage(driver);
+        resultsPage = new Results(driver);
 
 
         driver.get(koopPage.getURL());
@@ -237,6 +239,81 @@ public class Tests extends Base implements SharedElements{
 
 
 
+    /*These tests check that user is able to input values into "Anders" field*/
+
+
+
+    /*
+    This test checks that a "valid" number can be used in the "van" price field.
+     */
+    @Test(dependsOnMethods = "checkRangeMinFilterValues")
+    public void vanFieldEnterValidChars(){ ;
+        enterCharsIntoFilter(rangeMinValues,koopPage.getVanFilterAnders(driver),"103");
+        koopPage.getSearchButton(driver).click();
+    }
+
+
+    /*
+    In this test, invalid numbers are inserted.
+    Expected result: The values should be ignore, the result page should indicate that no filters were applied
+     */
+    @Test (dependsOnMethods = "checkRangeMinFilterValues")
+    public void vanFieldEnterInvalidChars(){
+        enterCharsIntoFilter(rangeMinValues,koopPage.getVanFilterAnders(driver),"Text");
+        koopPage.getSearchButton(driver).click();
+
+        //new page is loaded
+        wait.until(ExpectedConditions.visibilityOfElementLocated(filterCounter));
+        compareFilterCounterOnResutlsPage(0,driver.findElement(filterCounter).getText());
+
+    }
+
+
+    /**
+     * In this test we make sure that the field has a maximum length
+     */
+    @Test (dependsOnMethods = "checkRangeMinFilterValues")
+    public void vanInputCheckMaxLength(){
+
+
+    }
+
+    /**
+     * This test makes sure that when "Anders" is selected
+     */
+    @Test (dependsOnMethods = "checkRangeMinFilterValues")
+    public void vanInputCheckMinLength(){
+
+    }
+
+
+
+
+    @Test (dependsOnMethods = "checkRangeMinFilterValues")
+    public void vanFieldUseArrows(){
+        rangeMinValues.selectByIndex(0);
+
+    }
+
+
+
+    @Test (dependsOnMethods = "checkRangeMaxFilterValues")
+    public void totFieldEnterValidChars(){
+
+    }
+
+    @Test (dependsOnMethods = "checkRangeMaxFilterValues")
+    public void totFieldEnterInvalidChars(){
+
+    }
+
+
+    @Test (dependsOnMethods = "checkRangeMaxFilterValues")
+    private void insertValidChars(){
+
+    }
+
+
 
 
     /*Search field tests*/
@@ -274,7 +351,25 @@ public class Tests extends Base implements SharedElements{
     }
 
 
+    /*
+    * When pressing on "zoek" with an empty field, results page is loaded
+    *
+    */
 
+    @Test (groups = "links")
+    public void pressSearchWhenFieldIsEmpty(){
+
+        compareLinks(koopPage.getSearchButton(driver),resultsPage.getURL_WHEN_EMPTY());
+
+    }
+
+
+
+
+
+
+
+    /*SEARCHING TESTS*/
 
     @Test
     public void searchBuyingPropertiesNoFilters(){
@@ -285,6 +380,20 @@ public class Tests extends Base implements SharedElements{
         koopPage.getSearchButton(driver).click();
 
     }
+
+
+    @Test
+    public void lastSearchFieldDefaultValue(){
+
+    }
+
+    @Test
+    public void lastSearchFieldUpdated(){
+
+    }
+
+
+
 
 /* Description: This test depends on the previous one, and the search results are checked
  * Expected: All results
@@ -369,7 +478,29 @@ public class Tests extends Base implements SharedElements{
 
 
 
-    /*TEMP**/
+    /*
+     *This method recieves a list of all values of a filter, then selects the first one (to use the "Anders"
+     * Then, inserts the value recieved in "keys" into the field
+     * Because it receives the elements, this method can be used for HuurPage as well.
+     */
+
+    private void enterCharsIntoFilter(Select values, WebElement fieldElement, String keys){
+        values.selectByIndex(0);//Select the "Anders" Field
+        fieldElement.sendKeys(keys);
+
+    }
+
+    /**
+     * This method is reused, and compares to ints, depending on the original's test expectation
+     * @param expectedCounter:
+     * @param filterCounterNumber: This text will be parsed into int and compared with the expectedCounter.
+     */
+    private void compareFilterCounterOnResutlsPage(int expectedCounter,String filterCounterNumber){
+        int actualCounter = Integer.parseInt(filterCounterNumber);
+        Assert.assertEquals(expectedCounter,actualCounter); //if num of filters equals zero, it means that the invalid chars were ignored
+
+    }
+
     public void printList(Select s){
         List<WebElement> list = s.getOptions();
 
